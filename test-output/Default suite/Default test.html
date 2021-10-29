@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 29 15:44:16 FJT 2021</td>
+<td>Started on:</td><td>Fri Oct 29 16:10:34 FJT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (68 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (83 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TestCase2.validateTitles()'><b>validateTitles</b><br>Test class: testcases.TestCase2</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Yahoo.com] but found [Gmail.com],
-	image errored expected [false] but found [true]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at testcases.TestCase2.validateTitles(TestCase2.java:27)
+<td title='testcases.TestCase3.doLogin()'><b>doLogin</b><br>Test class: testcases.TestCase3</td>
+<td><div><pre>java.lang.AssertionError: User not registered successfully
+	at org.testng.Assert.fail(Assert.java:99)
+	at testcases.TestCase3.doLogin(TestCase3.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,13 +107,10 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace707157673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace707157673'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Yahoo.com] but found [Gmail.com],
-	image errored expected [false] but found [true]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at testcases.TestCase2.validateTitles(TestCase2.java:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1409160703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1409160703'><pre>java.lang.AssertionError: User not registered successfully
+	at org.testng.Assert.fail(Assert.java:99)
+	at testcases.TestCase3.doLogin(TestCase3.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -147,7 +141,30 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testcases.TestCase2@2beee7ff</td></tr>
+<td>testcases.TestCase3@3541cb24</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TestCase3.doUserReg()'><b>doUserReg</b><br>Test class: testcases.TestCase3</td>
+<td></td>
+<td>0</td>
+<td>testcases.TestCase3@3541cb24</td></tr>
+<tr>
+<td title='testcases.TestCase3.thirdTest()'><b>thirdTest</b><br>Test class: testcases.TestCase3</td>
+<td></td>
+<td>0</td>
+<td>testcases.TestCase3@3541cb24</td></tr>
+<tr>
+<td title='testcases.TestCase3.fourthTest()'><b>fourthTest</b><br>Test class: testcases.TestCase3</td>
+<td></td>
+<td>0</td>
+<td>testcases.TestCase3@3541cb24</td></tr>
 </table><p>
 </body>
 </html>
