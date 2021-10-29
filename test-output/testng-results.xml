@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-29T14:07:07 FJT" name="Default suite" finished-at="2021-10-29T14:07:07 FJT" duration-ms="55">
+  <suite started-at="2021-10-29T15:44:16 FJT" name="Default suite" finished-at="2021-10-29T15:44:16 FJT" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2021-10-29T14:07:07 FJT" name="Default test" finished-at="2021-10-29T14:07:07 FJT" duration-ms="55">
+    <test started-at="2021-10-29T15:44:16 FJT" name="Default test" finished-at="2021-10-29T15:44:16 FJT" duration-ms="68">
       <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@2beee7ff]" started-at="2021-10-29T14:07:07 FJT" name="validateTitles" finished-at="2021-10-29T14:07:07 FJT" duration-ms="11" status="FAIL">
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@2beee7ff]" started-at="2021-10-29T15:44:16 FJT" name="validateTitles" finished-at="2021-10-29T15:44:16 FJT" duration-ms="13" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Yahoo.com] but found [Gmail.com]]]>
+              <![CDATA[The following asserts failed:
+expected [Yahoo.com] but found [Gmail.com],
+image errored expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Yahoo.com] but found [Gmail.com]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at testcases.TestCase2.validateTitles(TestCase2.java:14)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Yahoo.com] but found [Gmail.com],
+image errored expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testcases.TestCase2.validateTitles(TestCase2.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
