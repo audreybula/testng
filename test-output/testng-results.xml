@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-29T16:10:34 FJT" name="Default suite" finished-at="2021-10-29T16:10:34 FJT" duration-ms="83">
+  <suite started-at="2021-10-29T19:38:45 FJT" name="Default suite" finished-at="2021-10-29T19:38:45 FJT" duration-ms="67">
     <groups>
     </groups>
-    <test started-at="2021-10-29T16:10:34 FJT" name="Default test" finished-at="2021-10-29T16:10:34 FJT" duration-ms="83">
+    <test started-at="2021-10-29T19:38:45 FJT" name="Default test" finished-at="2021-10-29T19:38:45 FJT" duration-ms="67">
       <class name="testcases.TestCase3">
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T16:10:34 FJT" name="doUserReg" finished-at="2021-10-29T16:10:34 FJT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doUserReg -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T16:10:34 FJT" name="doLogin" finished-at="2021-10-29T16:10:34 FJT" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="9" status="FAIL">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T19:38:45 FJT" name="doUserReg" finished-at="2021-10-29T19:38:45 FJT" duration-ms="8" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User not registered successfully]]>
@@ -19,7 +15,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: User not registered successfully
 at org.testng.Assert.fail(Assert.java:99)
-at testcases.TestCase3.doLogin(TestCase3.java:16)
+at testcases.TestCase3.doUserReg(TestCase3.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,12 +49,72 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T19:38:45 FJT" name="doLogin" finished-at="2021-10-29T19:38:45 FJT" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@3541cb24] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@3541cb24] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T16:10:34 FJT" name="thirdTest" finished-at="2021-10-29T16:10:34 FJT" duration-ms="1" status="PASS">
+        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T19:38:45 FJT" name="thirdTest" finished-at="2021-10-29T19:38:45 FJT" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTest -->
-        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T16:10:34 FJT" name="fourthTest" finished-at="2021-10-29T16:10:34 FJT" duration-ms="3" status="PASS">
+        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@3541cb24]" started-at="2021-10-29T19:38:45 FJT" name="fourthTest" finished-at="2021-10-29T19:38:45 FJT" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@3541cb24] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@3541cb24] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTest -->

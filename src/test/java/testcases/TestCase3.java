@@ -13,7 +13,6 @@ public class TestCase3 {
 	public void doLogin() {
 		
 		System.out.println("Executing login test");
-		Assert.fail("User not registered successfully");
 		
 	}
 	
@@ -21,17 +20,18 @@ public class TestCase3 {
 	public void doUserReg() {
 		
 		System.out.println("Executing user reg test");
+		Assert.fail("User not registered successfully");
 		
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, dependsOnMethods = "doUserReg", alwaysRun = true)
 	public void thirdTest() {
 		
 		System.out.println("Executing third test");
 		
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4, dependsOnMethods = "doUserReg")
 	public void fourthTest() {
 		
 		System.out.println("Executing fourth test");
