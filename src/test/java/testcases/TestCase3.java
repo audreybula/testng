@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestCase3 {
+public class TestCase3 extends BaseTest {
 	
 	@Test(priority = 2, dependsOnMethods = "doUserReg", groups = {"functional", "smoke"})
 	public void doLogin() {
