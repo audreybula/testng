@@ -2,89 +2,49 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-31T11:03:32 FJT" name="Default suite" finished-at="2021-10-31T11:03:33 FJT" duration-ms="1360">
+  <suite started-at="2021-10-31T11:21:50 FJT" name="Default suite" finished-at="2021-10-31T11:21:51 FJT" duration-ms="955">
     <groups>
     </groups>
-    <test started-at="2021-10-31T11:03:32 FJT" name="Default test" finished-at="2021-10-31T11:03:33 FJT" duration-ms="1360">
+    <test started-at="2021-10-31T11:21:50 FJT" name="Default test" finished-at="2021-10-31T11:21:51 FJT" duration-ms="955">
       <class name="TestNGParameterizationExcel">
-        <test-method signature="testData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:03:33 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:03:33 FJT" duration-ms="7" status="PASS">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:21:51 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:21:51 FJT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dhrthehe]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
+                <![CDATA[{age=22.0, password=dhrthehe, is_correct=Y, username=test@test.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method signature="testData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:03:33 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:03:33 FJT" duration-ms="1" status="PASS">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:21:51 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:21:51 FJT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test1@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dhghdhdh]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
+                <![CDATA[{age=23.0, password=dhghdhdh, is_correct=Y, username=test1@test.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method signature="testData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:03:33 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:03:33 FJT" duration-ms="1" status="PASS">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:21:51 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:21:51 FJT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test2@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[fjdjsjsd]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[N]]>
+                <![CDATA[{age=24.0, password=fjdjsjsd, is_correct=N, username=test2@test.com}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method signature="testData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:03:33 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:03:33 FJT" duration-ms="2" status="PASS">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:TestNGParameterizationExcel@505fc5a4]" started-at="2021-10-31T11:21:51 FJT" name="testData" data-provider="getData" finished-at="2021-10-31T11:21:51 FJT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test3@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shshs]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[N]]>
+                <![CDATA[{age=21.0, password=shshs, is_correct=N, username=test3@test.com}]]>
               </value>
             </param>
           </params>
