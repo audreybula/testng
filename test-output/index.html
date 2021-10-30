@@ -104,22 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testData(raman, drfvfdb)">testData(raman, drfvfdb)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testLogin(rahul, erdvsd)">testLogin(rahul, erdvsd)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testData(rahul, erdvsd)">testData(rahul, erdvsd)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testUserReg(raman, drfvfdb, mail1)">testUserReg(raman, drfvfdb, mail1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testLogin(raman, drfvfdb)">testLogin(raman, drfvfdb)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testUserReg(rahul, erdvsd, mail2)">testUserReg(rahul, erdvsd, mail2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="LoginTest" class="method navigator-link" hash-for-method="testUserReg(raman, drfvfdb, mail1)">testUserReg(raman, drfvfdb, mail1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -142,26 +142,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testData(raman, drfvfdb)">
-                  </a> <!-- testData(raman, drfvfdb) -->
-                  <span class="method-name">testData</span>
-                  <span class="parameters">(raman, drfvfdb)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testData(rahul, erdvsd)">
-                  </a> <!-- testData(rahul, erdvsd) -->
-                  <span class="method-name">testData</span>
+                  <a name="testLogin(rahul, erdvsd)">
+                  </a> <!-- testLogin(rahul, erdvsd) -->
+                  <span class="method-name">testLogin</span>
                   <span class="parameters">(rahul, erdvsd)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testUserReg(raman, drfvfdb, mail1)">
-                  </a> <!-- testUserReg(raman, drfvfdb, mail1) -->
-                  <span class="method-name">testUserReg</span>
-                  <span class="parameters">(raman, drfvfdb, mail1)</span>
+                  <a name="testLogin(raman, drfvfdb)">
+                  </a> <!-- testLogin(raman, drfvfdb) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(raman, drfvfdb)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,12 +164,20 @@
                   <span class="parameters">(rahul, erdvsd, mail2)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserReg(raman, drfvfdb, mail1)">
+                  </a> <!-- testUserReg(raman, drfvfdb, mail1) -->
+                  <span class="method-name">testUserReg</span>
+                  <span class="parameters">(raman, drfvfdb, mail1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/p_/4pvr_pjj1m7137gmkywlv9080000gn/T/testng-eclipse-1732145450/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/p_/4pvr_pjj1m7137gmkywlv9080000gn/T/testng-eclipse--825826702/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -228,15 +228,15 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testData')
+data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'LoginTest')
 data.setCell(0, 3, 7);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testData')
+data.setCell(1, 1, 'testUserReg')
 data.setCell(1, 2, 'LoginTest')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testUserReg')
+data.setCell(2, 1, 'testLogin')
 data.setCell(2, 2, 'LoginTest')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
@@ -275,20 +275,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testData(raman, drfvfdb)</span>
+                <span class="method-name">testLogin(raman, drfvfdb)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testData(rahul, erdvsd)</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-name">testLogin(rahul, erdvsd)</span>
+                <span class="method-start">10 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUserReg(raman, drfvfdb, mail1)</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUserReg(rahul, erdvsd, mail2)</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
