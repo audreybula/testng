@@ -1,6 +1,8 @@
 package testcases;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -22,7 +24,7 @@ public class TestCase3 {
 	public void doUserReg() {
 		
 		System.out.println("Executing user reg test");
-		AssertJUnit.fail("User not registered successfully");
+		Assert.fail("User not registered successfully");
 		
 	}
 	
