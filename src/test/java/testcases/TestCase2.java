@@ -10,7 +10,7 @@ import org.testng.asserts.SoftAssert;
 
 public class TestCase2 {
 	
-	@Test
+	@Test(groups = "smoke")
 	public void validateTitles() {
 		
 		System.out.println("Beginning");

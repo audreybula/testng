@@ -38,14 +38,14 @@ public class TestCase1 {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority = 2, groups = "functional")
 	public void doLogin() {
 		
 		System.out.println("Executing login test");
 		
 	}
 	
-	@Test(priority=1)
+	@Test(priority = 1, groups = "functional")
 	public void doUserReg() {
 		
 		System.out.println("Executing user reg test");
