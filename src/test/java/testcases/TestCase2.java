@@ -1,5 +1,7 @@
 package testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -17,10 +19,10 @@ public class TestCase2 {
 		SoftAssert softAssert = new SoftAssert();
 		
 		System.out.println("Validating title");
-		softAssert.assertEquals(actual_title, expected_title);
+		AssertJUnit.assertEquals(actual_title, expected_title);
 		
 		System.out.println("Validating img");
-		softAssert.assertEquals(true, false, "image errored");
+		AssertJUnit.assertEquals(true, false);
 		
 		System.out.println("Ending");
 		
