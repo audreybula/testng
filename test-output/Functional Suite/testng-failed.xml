@@ -3,6 +3,7 @@
 <suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="customListeners.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
   <test thread-count="5" name="Validate Title Test(failed)">
     <classes>
