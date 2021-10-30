@@ -48,7 +48,7 @@ public class TestCase1 {
 	@Test(priority = 1, groups = "functional")
 	public void doUserReg() {
 		
-		System.out.println("Executing user reg test");
+		System.out.println("Executing User reg test");
 		
 	}
 
