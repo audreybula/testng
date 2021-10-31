@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-31T12:10:33 FJT" name="Parameterization Suite" finished-at="2021-10-31T12:10:33 FJT" duration-ms="115">
+  <suite started-at="2021-10-31T14:09:11 FJT" name="Parallel Suite" finished-at="2021-10-31T14:09:11 FJT" duration-ms="289">
     <groups>
     </groups>
-    <test started-at="2021-10-31T12:10:33 FJT" name="Parameterization BrowserTest" finished-at="2021-10-31T12:10:33 FJT" duration-ms="43">
-      <class name="parameterization.TestParamsFromXML">
-        <test-method signature="getBrowser(java.lang.String)[pri:0, instance:parameterization.TestParamsFromXML@57d7f8ca]" started-at="2021-10-31T12:10:33 FJT" name="getBrowser" finished-at="2021-10-31T12:10:33 FJT" duration-ms="8" status="PASS">
+    <test started-at="2021-10-31T14:09:11 FJT" name="Chrome Test" finished-at="2021-10-31T14:09:11 FJT" duration-ms="285">
+      <class name="parallelTest.TestBrowser">
+        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestBrowser@57d7f8ca]" started-at="2021-10-31T14:09:11 FJT" name="doLogin" finished-at="2021-10-31T14:09:11 FJT" duration-ms="247" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- parameterization.TestParamsFromXML -->
-    </test> <!-- Parameterization BrowserTest -->
-    <test started-at="2021-10-31T12:10:33 FJT" name="Parameterization2 BrowserTest" finished-at="2021-10-31T12:10:33 FJT" duration-ms="5">
-      <class name="parameterization.TestParamsFromXML">
-        <test-method signature="getBrowser(java.lang.String)[pri:0, instance:parameterization.TestParamsFromXML@66f57048]" started-at="2021-10-31T12:10:33 FJT" name="getBrowser" finished-at="2021-10-31T12:10:33 FJT" duration-ms="2" status="PASS">
+        </test-method> <!-- doLogin -->
+      </class> <!-- parallelTest.TestBrowser -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2021-10-31T14:09:11 FJT" name="Firefox Test" finished-at="2021-10-31T14:09:11 FJT" duration-ms="284">
+      <class name="parallelTest.TestBrowser">
+        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestBrowser@66f57048]" started-at="2021-10-31T14:09:11 FJT" name="doLogin" finished-at="2021-10-31T14:09:11 FJT" duration-ms="256" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- parameterization.TestParamsFromXML -->
-    </test> <!-- Parameterization2 BrowserTest -->
-  </suite> <!-- Parameterization Suite -->
+        </test-method> <!-- doLogin -->
+      </class> <!-- parallelTest.TestBrowser -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Parallel Suite -->
 </testng-results>
